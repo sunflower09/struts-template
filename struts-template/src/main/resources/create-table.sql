@@ -1,0 +1,1 @@
+create table message(id integer primary key, message varchar(128));
