@@ -17,6 +17,9 @@ public class HelloWorldAction extends Action {
     @Autowired
     MyService service;
 
+    /**
+     * add javadoc
+     */
     public ActionForward execute(ActionMapping mapping, ActionForm form,
             HttpServletRequest request, HttpServletResponse response)
             throws Exception {
